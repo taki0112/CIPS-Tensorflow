@@ -26,8 +26,8 @@
 ```
 
 ## Results
-* FID: 6.15 (4.8M images(150k iterations), 8GPU, each 4 batch size)  
-  * **FID reported in the paper: 6.31**
+* **FID: 6.15 (4.8M images(150k iterations), 8GPU, each 4 batch size)**
+  * FID reported in the paper: **6.31**
 
 ## It will be released in January.
 
