@@ -34,7 +34,5 @@
 </div>
 
 
-## It will be released in January.
-
 ## Author
 [Junho Kim](http://bit.ly/jhkim_resume)
