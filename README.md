@@ -25,6 +25,10 @@
 > python main.py --dataset FFHQ --phase train --img_size 256 --batch_size 4 --n_total_image 4800
 ```
 
+## Results
+* FID: 6.15 (4.8M images(150k iterations), 8GPU, each 4 batch size)  
+  * **FID reported in the paper: 6.31**
+
 ## It will be released in January.
 
 ## Author
