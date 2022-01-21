@@ -1,9 +1,9 @@
-from StyleGAN2 import StyleGAN2
+from CIPS import CIPS
 import argparse
 from utils import *
 
 def parse_args():
-    desc = "Tensorflow implementation of StyleGAN2"
+    desc = "Tensorflow implementation of CIPS"
     parser = argparse.ArgumentParser(description=desc)
     parser.add_argument('--phase', type=str, default='train', help='[train, test, draw]')
     parser.add_argument('--draw', type=str, default='uncurated', help='[uncurated, truncation_trick]')

@@ -48,11 +48,11 @@ class Inception_V3(tf.keras.Model):
 
         return inception_feat
 
-class StyleGAN2():
+class CIPS():
     def __init__(self, t_params, strategy):
-        super(StyleGAN2, self).__init__()
+        super(CIPS, self).__init__()
 
-        self.model_name = 'StyleGAN2'
+        self.model_name = 'CIPS'
         self.phase = t_params['phase']
         self.checkpoint_dir = t_params['checkpoint_dir']
         self.result_dir = t_params['result_dir']
